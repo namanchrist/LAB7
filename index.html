@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="question-container">
+        <div class="heading">Fetch Books API</div>
+        <div class="description">
+            Develop a Web Application that uses AJAX to fetch JSON data from a remote server 
+            and display it on a web page. The index.html file contains a button labeled "Fetch Books" 
+            and a div element with the id "booklist" where the list of books will be displayed.
+            Use JavaScript to add a click event listener to the "Fetch Books" button. When clicked, 
+            it fetches JSON data from a local file or API and renders the list of books on the webpage.
+        </div>
+        <button class="fetchButton" id="fetchButton">Fetch Books</button>
+    </div>
+
+    <div class="booklist-container">
+        <div class="booklist" id="booklist">
+            <div class="loading" id="loading">Loading . . .</div>
+        </div>
+    </div>
+</body>
+</html>
